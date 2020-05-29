@@ -1,4 +1,1 @@
-def hello
-end
-
-p hello.class
+hello world
