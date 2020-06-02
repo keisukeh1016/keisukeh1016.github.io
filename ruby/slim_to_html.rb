@@ -2,8 +2,6 @@ require 'slim'
 
 slim = <<TEXT
 
-- if true 
-  td.text-right.text-success= 'hello'
 
 TEXT
 
