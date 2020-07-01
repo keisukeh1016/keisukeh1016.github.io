@@ -47,7 +47,7 @@ class Calendar
 
       loop_date = @date
       while loop_date.month == @date.month
-        body += loop_date.saturday? ? loop_date.strftime("%e\n") : loop_date.strftime("%e ")
+        body << ( loop_date.saturday? ? loop_date.strftime("%e\n") : loop_date.strftime("%e ") )
         loop_date = loop_date.next_day
       end    
 
