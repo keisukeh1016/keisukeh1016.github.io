@@ -1,6 +1,7 @@
 require 'slim'
 
-slim = <<TEXT
+slim = <<TEXT 
+
 
 
 TEXT
