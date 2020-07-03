@@ -1,8 +1,9 @@
 #!/bin/bash
 sudo apt update -y
 sudo apt upgrade -y
-sudo apt install -y git curl sqlite3
-sudo apt install -y autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm-dev libdb-dev libsqlite3-dev
+sudo apt install -y git curl sqlite3 \
+                    autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev libncurses5-dev \
+                    libffi-dev libgdbm-dev libdb-dev libsqlite3-dev zlib1g-dev 
 
 # nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
