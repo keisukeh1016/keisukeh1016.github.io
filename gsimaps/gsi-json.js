@@ -1,3 +1,5 @@
+// GSI Maps「自分で作る色別標高図」用のJSONファイルを生成します
+
 const fs = require('fs');
 
 const writeJSON = (start, stop) => {
