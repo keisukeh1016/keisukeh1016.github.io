@@ -5,6 +5,7 @@ winget install --exact --id "GitHub.cli" --silent
 winget install --exact --id "Google.Chrome" --silent
 winget install --exact --id "Google.ChromeRemoteDesktop" --silent
 winget install --exact --id "Microsoft.PowerToys" --silent
+winget install --exact --id "Microsoft.SQLServerManagementStudio" --silent
 winget install --exact --id "Microsoft.VC++2015-2022Redist-x64" --silent
 winget install --exact --id "Microsoft.VC++2015-2022Redist-x86" --silent
 winget install --exact --id "Microsoft.VisualStudio.2022.Community" --silent
@@ -16,8 +17,11 @@ winget install --exact --id "Oracle.VirtualBox" --silent
 winget install --exact --id "Postman.Postman" --silent
 winget install --exact --id "Spotify.Spotify" --silent
 winget install --exact --id "TeamViewer.TeamViewer" --silent
-winget install --exact --id "Volta.Volta" --silent
 winget install --exact --id "WinMerge.WinMerge" --silent
 winget install --exact --id "Zoom.Zoom" --silent
 
-# MarketSpeed2 https://marketspeed.jp/ms2/
+# MarketSpeed2
+# https://marketspeed.jp/ms2/
+
+# NVM for Windows
+# https://github.com/coreybutler/nvm-windows/releases
