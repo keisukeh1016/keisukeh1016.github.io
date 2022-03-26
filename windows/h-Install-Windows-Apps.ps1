@@ -1,5 +1,7 @@
 winget install --exact --id "7zip.7zip" --silent
+winget install --exact --id "Adobe.Acrobat.Reader.32-bit" --silent
 winget install --exact --id "DBBrowserForSQLite.DBBrowserForSQLite" --silent
+winget install --exact --id "Discord.Discord" --silent
 winget install --exact --id "EpicGames.EpicGamesLauncher" --silent
 winget install --exact --id "Git.Git" --silent
 winget install --exact --id "GitHub.cli" --silent
