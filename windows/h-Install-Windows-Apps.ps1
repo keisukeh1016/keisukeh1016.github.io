@@ -7,6 +7,7 @@ winget install --exact --id "Git.Git" --silent
 winget install --exact --id "GitHub.cli" --silent
 winget install --exact --id "Google.Chrome" --silent
 winget install --exact --id "Google.ChromeRemoteDesktop" --silent
+winget install --exact --id "LINE.LINE" --silent
 winget install --exact --id "Microsoft.PowerToys" --silent
 winget install --exact --id "Microsoft.SQLServer.2019.Developer" --silent
 winget install --exact --id "Microsoft.SQLServerManagementStudio" --silent
