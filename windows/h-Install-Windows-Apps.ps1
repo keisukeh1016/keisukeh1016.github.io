@@ -15,6 +15,7 @@ winget install --exact --id "Microsoft.VC++2015-2022Redist-x64" --silent
 winget install --exact --id "Microsoft.VC++2015-2022Redist-x86" --silent
 winget install --exact --id "Microsoft.VisualStudio.2022.Community" --silent
 winget install --exact --id "Microsoft.VisualStudioCode" --silent
+winget install --exact --id "Microsoft.WindowsSDK" --silent
 winget install --exact --id "Microsoft.WindowsTerminal" --silent
 winget install --exact --id "Mozilla.Firefox" --silent
 winget install --exact --id "Mozilla.Thunderbird" --silent
