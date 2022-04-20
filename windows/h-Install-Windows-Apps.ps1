@@ -11,7 +11,6 @@ winget install --exact --id "LINE.LINE" --silent
 winget install --exact --id "Microsoft.PowerToys" --silent
 winget install --exact --id "Microsoft.SQLServer.2019.Developer" --silent
 winget install --exact --id "Microsoft.SQLServerManagementStudio" --locale "ja-JP" --silent
-# winget install --exact --id "Microsoft.SQLServerManagementStudio" --locale "en-US" --silent --version "14.0.17289.0"
 winget install --exact --id "Microsoft.VC++2015-2022Redist-x64" --silent
 winget install --exact --id "Microsoft.VC++2015-2022Redist-x86" --silent
 winget install --exact --id "Microsoft.VisualStudio.2022.Community" --silent
@@ -28,6 +27,9 @@ winget install --exact --id "Volta.Volta" --silent
 winget install --exact --id "WinMerge.WinMerge" --silent
 winget install --exact --id "Zoom.Zoom" --silent
 
+# DevToys
+winget install --exact --id "9PGCV4V3BK4W" --silent
+
 # サクラエディタ
 # https://sakura-editor.github.io/
 
@@ -35,9 +37,9 @@ winget install --exact --id "Zoom.Zoom" --silent
 # https://marketspeed.jp/ms2/
 
 # NVM for Windows
-# https://github.com/coreybutler/nvm-windows/releases
+# https://github.com/coreybutler/nvm-windows
 
-# SQL Server Management Studio 14.0.17289.0
+# SQL Server Management Studio 17
 # https://docs.microsoft.com/ja-jp/sql/ssms/release-notes-ssms?view=sql-server-ver15
 
 # TeamViewer 12
