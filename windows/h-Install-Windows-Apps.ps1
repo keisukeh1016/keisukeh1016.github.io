@@ -1,5 +1,6 @@
 winget install --exact --id "7zip.7zip" --silent
 winget install --exact --id "Adobe.Acrobat.Reader.32-bit" --silent
+winget install --exact --id "CoreyButler.NVMforWindows" --silent
 winget install --exact --id "DBBrowserForSQLite.DBBrowserForSQLite" --silent
 winget install --exact --id "Discord.Discord" --silent
 winget install --exact --id "EpicGames.EpicGamesLauncher" --silent
@@ -23,7 +24,6 @@ winget install --exact --id "Oracle.VirtualBox" --silent
 winget install --exact --id "Postman.Postman" --silent
 winget install --exact --id "Spotify.Spotify" --silent
 winget install --exact --id "TeamViewer.TeamViewer" --silent
-winget install --exact --id "Volta.Volta" --silent
 winget install --exact --id "WinMerge.WinMerge" --silent
 winget install --exact --id "Zoom.Zoom" --silent
 
@@ -35,9 +35,6 @@ winget install --exact --id "9PGCV4V3BK4W" --silent
 
 # MarketSpeed2
 # https://marketspeed.jp/ms2/
-
-# NVM for Windows
-# https://github.com/coreybutler/nvm-windows
 
 # SQL Server Management Studio 17
 # https://docs.microsoft.com/ja-jp/sql/ssms/release-notes-ssms?view=sql-server-ver15
