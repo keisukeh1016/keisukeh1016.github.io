@@ -1,3 +1,4 @@
+code --install-extension 'alefragnani.Bookmarks'
 code --install-extension 'Angular.ng-template'
 code --install-extension 'eamodio.gitlens'
 code --install-extension 'esbenp.prettier-vscode'

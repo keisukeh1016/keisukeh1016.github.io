@@ -1,4 +1,4 @@
-## Chrome Settings
+## chrome://settings
 
 - 同期と Google サービス
 
@@ -24,3 +24,9 @@
   - カメラ オフ
   - マイク オフ
   - 通知 オフ
+
+## chrome://flags
+
+- chrome://flags/#password-import
+
+  - Enabled
