@@ -17,6 +17,7 @@ choco install nvm --yes
 choco install postman --yes
 choco install powertoys --yes
 choco install pwsh --yes
+choco install sakuraeditor --yes --params "'/Tasks:!quicklaunch,!desktopicon,!fileassoc'"
 choco install sqlitebrowser --yes
 choco install tablacus --yes
 choco install teamviewer --yes
@@ -27,7 +28,6 @@ choco install volta --yes
 choco install vscode --yes --params "/NoDesktopIcon"
 choco install winmerge -yes
 choco install zoom --yes --params "'/NoDesktopShortcut'"
-choco install sakuraeditor --yes --params "'/Tasks:!quicklaunch,!desktopicon,!fileassoc'"
 
 # SQL Server 2022 Express
 Invoke-WebRequest `
