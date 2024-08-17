@@ -20,3 +20,4 @@ choco install vcredist140 --yes
 
 # choco install sql-server-express --yes
 # choco install sql-server-management-studio --yes
+# choco install visualstudio2022community --yes
