@@ -32,6 +32,6 @@ choco install sakuraeditor --yes --params "'/Tasks:!quicklaunch,!desktopicon,!fi
 
 # choco install sql-server-express --yes
 # choco install sql-server-management-studio --yes
-# choco install visualstudio2022community --yes
+# choco install visualstudio2022community --yes --params "--locale Ja-jp"
 
 # MarketSpeed2
