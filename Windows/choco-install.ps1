@@ -26,9 +26,12 @@ choco install virtualbox --yes --params "/NoDesktopShortcut"
 choco install volta --yes 
 choco install vscode --yes --params "/NoDesktopIcon"
 choco install winmerge -yes
-choco install zoom --yes --params "/NoDesktopShortcut"
+choco install zoom --yes --params "'/NoDesktopShortcut'"
+choco install sakuraeditor --yes --params "'/Tasks:!quicklaunch,!desktopicon,!fileassoc'"
 
 
 # choco install sql-server-express --yes
 # choco install sql-server-management-studio --yes
 # choco install visualstudio2022community --yes
+
+# MarketSpeed2
