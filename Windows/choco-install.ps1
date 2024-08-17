@@ -3,8 +3,10 @@ choco install adobereader --yes
 choco install brave --yes
 choco install discord --yes
 choco install epicgameslauncher --yes
+choco install gh --yes
 choco install gimp --yes
 choco install git --yes
+choco install github-desktop --yes
 choco install nvm --yes
 choco install sqlitebrowser --yes
 choco install tablacus --yes
