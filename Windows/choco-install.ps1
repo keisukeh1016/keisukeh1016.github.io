@@ -16,6 +16,7 @@ choco install pwsh --yes
 choco install sqlitebrowser --yes
 choco install tablacus --yes
 choco install vcredist140 --yes
+choco install vscode --yes --params "/NoDesktopIcon"
 
 
 # choco install sql-server-express --yes
