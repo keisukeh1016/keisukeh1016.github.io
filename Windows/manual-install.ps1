@@ -4,6 +4,12 @@ Invoke-WebRequest `
   -Uri "https://dl.honto.jp/pcapp/honto_setup.exe" `
   -OutFile ([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::UserProfile) + "\Downloads")
 
+# HYPER SBI 2
+Invoke-WebRequest `
+  -UseBasicParsing `
+  -Uri "https://data.sbisec.co.jp/hsbi2/HYPER_SBI_2_Setup.exe" `
+  -OutFile ([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::UserProfile) + "\Downloads")
+
 # SQL Server 2022 Express
 Invoke-WebRequest `
   -UseBasicParsing `
