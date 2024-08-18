@@ -5,8 +5,18 @@ winget upgrade --exact --id "Microsoft.DevHome" --silent
 winget upgrade --exact --id "Microsoft.Edge" --silent
 winget upgrade --exact --id "Microsoft.EdgeWebView2Runtime" --silent
 winget upgrade --exact --id "Microsoft.OneDrive" --silent
+winget upgrade --exact --id "Microsoft.PowerShell" --silent
+winget upgrade --exact --id "Microsoft.PowerToys" --silent
+winget upgrade --exact --id "Microsoft.SQLServer.2019.Developer" --silent
+winget upgrade --exact --id "Microsoft.SQLServerManagementStudio" --locale "ja-JP" --silent
 winget upgrade --exact --id "Microsoft.Teams.Free" --silent
+winget upgrade --exact --id "Microsoft.VC++2015-2022Redist-x64" --silent
+winget upgrade --exact --id "Microsoft.VC++2015-2022Redist-x86" --silent
 winget upgrade --exact --id "Microsoft.VCRedist.2015+.x64" --silent
 winget upgrade --exact --id "Microsoft.VCRedist.2015+.x86" --silent
 winget upgrade --exact --id "Microsoft.VisualStudio.2022.Community" --silent
+winget upgrade --exact --id "Microsoft.VisualStudio.2022.Community" --silent
+winget upgrade --exact --id "Microsoft.VisualStudioCode" --silent
+winget upgrade --exact --id "Microsoft.WindowsSDK" --silent
+winget upgrade --exact --id "Microsoft.WindowsTerminal" --silent
 winget upgrade --exact --id "Microsoft.WindowsTerminal" --silent
