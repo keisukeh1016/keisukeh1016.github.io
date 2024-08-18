@@ -1,22 +1,18 @@
-winget upgrade --exact --id "Chocolatey.Chocolatey" --silent
-winget upgrade --exact --id "Microsoft.AppInstaller" --silent
-winget upgrade --exact --id "Microsoft.CLRTypesSQLServer.2019" --silent
-winget upgrade --exact --id "Microsoft.DevHome" --silent
-winget upgrade --exact --id "Microsoft.Edge" --silent
-winget upgrade --exact --id "Microsoft.EdgeWebView2Runtime" --silent
-winget upgrade --exact --id "Microsoft.OneDrive" --silent
-winget upgrade --exact --id "Microsoft.PowerShell" --silent
-winget upgrade --exact --id "Microsoft.PowerToys" --silent
-winget upgrade --exact --id "Microsoft.SQLServer.2019.Developer" --silent
-winget upgrade --exact --id "Microsoft.SQLServerManagementStudio" --locale "ja-JP" --silent
-winget upgrade --exact --id "Microsoft.Teams.Free" --silent
-winget upgrade --exact --id "Microsoft.VC++2015-2022Redist-x64" --silent
-winget upgrade --exact --id "Microsoft.VC++2015-2022Redist-x86" --silent
-winget upgrade --exact --id "Microsoft.VCRedist.2015+.x64" --silent
-winget upgrade --exact --id "Microsoft.VCRedist.2015+.x86" --silent
-winget upgrade --exact --id "Microsoft.VisualStudio.2022.Community" --silent
-winget upgrade --exact --id "Microsoft.VisualStudio.2022.Community" --silent
-winget upgrade --exact --id "Microsoft.VisualStudioCode" --silent
-winget upgrade --exact --id "Microsoft.WindowsSDK" --silent
-winget upgrade --exact --id "Microsoft.WindowsTerminal" --silent
-winget upgrade --exact --id "Microsoft.WindowsTerminal" --silent
+winget upgrade --exact --silent --id "Canonical.Ubuntu.2204"
+winget upgrade --exact --silent --id "Chocolatey.Chocolatey"
+winget upgrade --exact --silent --id "Microsoft.AppInstaller"
+winget upgrade --exact --silent --id "Microsoft.DevHome"
+winget upgrade --exact --silent --id "Microsoft.Edge"
+winget upgrade --exact --silent --id "Microsoft.EdgeWebView2Runtime"
+winget upgrade --exact --silent --id "Microsoft.OneDrive"
+winget upgrade --exact --silent --id "Microsoft.PowerShell"
+winget upgrade --exact --silent --id "Microsoft.PowerToys"
+winget upgrade --exact --silent --id "Microsoft.SQLServer.2019.Developer"
+winget upgrade --exact --silent --id "Microsoft.SQLServerManagementStudio" --locale "ja-JP"
+winget upgrade --exact --silent --id "Microsoft.Teams.Free"
+winget upgrade --exact --silent --id "Microsoft.VCRedist.2015+.x64"
+winget upgrade --exact --silent --id "Microsoft.VCRedist.2015+.x86"
+winget upgrade --exact --silent --id "Microsoft.VisualStudio.2022.Community"
+winget upgrade --exact --silent --id "Microsoft.VisualStudio.2022.Community" --custom "--locale ja-JP"
+winget upgrade --exact --silent --id "Microsoft.VisualStudioCode"
+winget upgrade --exact --silent --id "Microsoft.WindowsTerminal"
