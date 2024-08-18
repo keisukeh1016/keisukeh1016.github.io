@@ -1,1 +1,12 @@
 winget upgrade --exact --id "Chocolatey.Chocolatey" --silent
+winget upgrade --exact --id "Microsoft.AppInstaller" --silent
+winget upgrade --exact --id "Microsoft.CLRTypesSQLServer.2019" --silent
+winget upgrade --exact --id "Microsoft.DevHome" --silent
+winget upgrade --exact --id "Microsoft.Edge" --silent
+winget upgrade --exact --id "Microsoft.EdgeWebView2Runtime" --silent
+winget upgrade --exact --id "Microsoft.OneDrive" --silent
+winget upgrade --exact --id "Microsoft.Teams.Free" --silent
+winget upgrade --exact --id "Microsoft.VCRedist.2015+.x64" --silent
+winget upgrade --exact --id "Microsoft.VCRedist.2015+.x86" --silent
+winget upgrade --exact --id "Microsoft.VisualStudio.2022.Community" --silent
+winget upgrade --exact --id "Microsoft.WindowsTerminal" --silent
