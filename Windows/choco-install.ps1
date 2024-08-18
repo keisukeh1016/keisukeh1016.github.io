@@ -1,4 +1,5 @@
 choco install --yes 7zip
+choco install --yes docker-desktop
 choco install --yes gh
 choco install --yes git
 choco install --yes googlechrome
