@@ -1,5 +1,4 @@
 winget upgrade --exact --silent --id "Canonical.Ubuntu.2204"
-winget upgrade --exact --silent --id "Chocolatey.Chocolatey"
 winget upgrade --exact --silent --id "Microsoft.AppInstaller"
 winget upgrade --exact --silent --id "Microsoft.DevHome"
 winget upgrade --exact --silent --id "Microsoft.Edge"
