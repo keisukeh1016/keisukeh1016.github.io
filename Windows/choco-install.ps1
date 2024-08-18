@@ -1,30 +1,26 @@
-choco install 7zip --yes
-choco install adobereader --yes
-choco install brave --yes
-choco install chrome-remote-desktop-host --yes
-choco install discord --yes
-choco install epicgameslauncher --yes
-choco install ffftp --yes
-choco install firefox --yes --params "/NoTaskbarShortcut /NoDesktopShortcut"
-choco install gh --yes
-choco install gimp --yes
-choco install git --yes
-choco install github-desktop --yes
-choco install googlechrome --yes
-choco install line --yes
-choco install microsoft-windows-terminal --yes
-choco install nvm --yes
-choco install postman --yes
-choco install powertoys --yes
-choco install pwsh --yes
-choco install sakuraeditor --yes --params "'/Tasks:!quicklaunch,!desktopicon,!fileassoc'"
-choco install sqlitebrowser --yes
-choco install tablacus --yes
-choco install teamviewer --yes
-choco install thunderbird --yes --params "/NoTaskbarShortcut /NoDesktopShortcut"
-choco install vcredist140 --yes
-choco install virtualbox --yes --params "/NoDesktopShortcut"
-choco install volta --yes 
-choco install vscode --yes --params "/NoDesktopIcon"
-choco install winmerge -yes
-choco install zoom --yes --params "'/NoDesktopShortcut'"
+choco install --yes 7zip
+choco install --yes gh
+choco install --yes git
+choco install --yes googlechrome
+choco install --yes nvm
+choco install --yes postman
+choco install --yes sqlitebrowser
+choco install --yes tablacus
+choco install --yes winmerge
+
+# choco install --yes adobereader
+# choco install --yes brave
+# choco install --yes chrome-remote-desktop-host
+# choco install --yes discord
+# choco install --yes epicgameslauncher
+# choco install --yes ffftp
+# choco install --yes firefox --params "/NoTaskbarShortcut /NoDesktopShortcut"
+# choco install --yes gimp
+# choco install --yes github-desktop
+# choco install --yes line
+# choco install --yes sakuraeditor --params "'/Tasks:!quicklaunch,!desktopicon,!fileassoc'"
+# choco install --yes teamviewer
+# choco install --yes thunderbird --params "/NoTaskbarShortcut /NoDesktopShortcut"
+# choco install --yes virtualbox --params "/NoDesktopShortcut"
+# choco install --yes volta 
+# choco install --yes zoom --params "'/NoDesktopShortcut'"
