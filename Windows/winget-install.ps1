@@ -1,1 +1,5 @@
-winget install --exact --id "Chocolatey.Chocolatey" --silent
+winget upgrade --exact --silent --id "Microsoft.PowerShell"
+winget upgrade --exact --silent --id "Microsoft.PowerToys"
+winget upgrade --exact --silent --id "Microsoft.SQLServerManagementStudio"
+winget upgrade --exact --silent --id "Microsoft.VisualStudio.2022.Community"
+winget upgrade --exact --silent --id "Microsoft.VisualStudioCode"
