@@ -12,7 +12,6 @@ winget upgrade --exact --silent --id "Microsoft.SQLServerManagementStudio" --loc
 winget upgrade --exact --silent --id "Microsoft.Teams.Free"
 winget upgrade --exact --silent --id "Microsoft.VCRedist.2015+.x64"
 winget upgrade --exact --silent --id "Microsoft.VCRedist.2015+.x86"
-winget upgrade --exact --silent --id "Microsoft.VisualStudio.2022.Community"
 winget upgrade --exact --silent --id "Microsoft.VisualStudio.2022.Community" --custom "--locale ja-JP"
 winget upgrade --exact --silent --id "Microsoft.VisualStudioCode"
 winget upgrade --exact --silent --id "Microsoft.WindowsTerminal"
