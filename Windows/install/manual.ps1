@@ -1,8 +1,9 @@
-$download = ([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::UserProfile) + "\Downloads\Setup") 
+# 初期処理
+$download = ([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::UserProfile) + "\Downloads\Setup")
 New-Item $download -ItemType "directory"
-Set-Location $download
+Push-Location $download
 
-# Chocolatey 
+# Chocolatey
 Set-ExecutionPolicy Bypass -Scope Process -Force
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
@@ -18,4 +19,6 @@ curl.exe -LO "https://downloads2.broadcom.com/?file=VMware-workstation-full-17.5
 
 # マーケットスピード II
 curl.exe -LO "https://download.rakuten-sec.co.jp/MarketSpeed2Installkits_0001.exe"
-  
+
+# 終了処理
+Pop-Location
