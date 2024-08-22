@@ -1,0 +1,1 @@
+.\update\winget.ps1
