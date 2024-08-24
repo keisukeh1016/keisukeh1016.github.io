@@ -20,6 +20,7 @@ choco install --yes winmerge
 # choco install --yes github-desktop
 # choco install --yes line
 # choco install --yes sakuraeditor --params "'/Tasks:!quicklaunch,!desktopicon,!fileassoc'"
+# choco install --yes slack
 # choco install --yes teamviewer
 # choco install --yes thunderbird --params "/NoTaskbarShortcut /NoDesktopShortcut"
 # choco install --yes virtualbox --params "/NoDesktopShortcut"
