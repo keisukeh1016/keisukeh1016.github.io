@@ -11,15 +11,13 @@ Start-BitsTransfer `
     -Source "https://dl.honto.jp/pcapp/honto_setup.exe" `
     -Destination (Join-Path -Path $setupPath -ChildPath "honto_setup.exe")
 
-# HYPER SBI 2
+# Kindle for PC
 Start-BitsTransfer `
-    -Source "https://data.sbisec.co.jp/hsbi2/HYPER_SBI_2_Setup.exe" `
-    -Destination (Join-Path -Path $setupPath -ChildPath "HYPER_SBI_2_Setup.exe")
+    -Source "https://kindleforpc.s3.amazonaws.com/70951/KindleForPC-installer-2.5.70951.exe" `
+    -Destination (Join-Path -Path $setupPath -ChildPath "KindleForPC-installer-2.5.70951.exe")
 
-# マーケットスピード II
+# Tablacus Explorer
 Start-BitsTransfer `
-    -Source "https://download.rakuten-sec.co.jp/MarketSpeed2Installkits_0001.exe" `
-    -Destination (Join-Path -Path $setupPath -ChildPath "MarketSpeed2Installkits_0001.exe")
+    -Source "https://github.com/tablacus/TablacusExplorer/releases/download/24.10.11/te241011.zip" `
+    -Destination (Join-Path -Path $setupPath -ChildPath "te241011.zip")
 
-# VMware Workstation Pro
-Start-Process "https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro"
