@@ -16,6 +16,7 @@ $files = @(
     "LINE.lnk"
     "MarketSpeed2.lnk"
     "Microsoft Edge.lnk"
+    "Oracle VirtualBox.lnk"
     "Oracle VM VirtualBox.lnk"
     "Postman.lnk"
     "Slack.lnk"
