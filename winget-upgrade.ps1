@@ -8,6 +8,7 @@ winget upgrade --accept-package-agreements --accept-source-agreements --exact --
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'GitHub.cli'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Google.Chrome'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.AppInstaller'
+winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.Azd'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.DevHome'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.Edge'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Microsoft.EdgeWebView2Runtime'
