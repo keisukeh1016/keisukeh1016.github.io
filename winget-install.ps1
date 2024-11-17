@@ -3,6 +3,7 @@ winget install --accept-package-agreements --accept-source-agreements --exact --
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'CoreyButler.NVMforWindows'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'DBBrowserForSQLite.DBBrowserForSQLite'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'DevToys-app.DevToys'
+winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Docker.DockerDesktop'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Git.Git'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'GitHub.cli'
 winget install --accept-package-agreements --accept-source-agreements --exact --silent --id 'Google.Chrome'

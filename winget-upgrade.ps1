@@ -4,6 +4,7 @@ winget upgrade --accept-package-agreements --accept-source-agreements --exact --
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'CoreyButler.NVMforWindows'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'DBBrowserForSQLite.DBBrowserForSQLite'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'DevToys-app.DevToys'
+winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Docker.DockerDesktop'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Git.Git'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'GitHub.cli'
 winget upgrade --accept-package-agreements --accept-source-agreements --exact --silent --id 'Google.Chrome'
